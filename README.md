@@ -1,5 +1,12 @@
 # Playwright for React
 
+## Technologies used
+- Playwright
+- TailwindCSS
+- React-Router 7
+- PNPM
+- Node v22.11.0
+
 ```bash
 # create react app
 pnpm create vite
@@ -26,5 +33,6 @@ pnpm create playwright
 ## Eg. <ul data-testId="items-list">
 ## access from test: const itemList = page.getByTestId('items-list');
 
+pnpm test
 ```
 ## Sample generated full text cases are inside tests-examples folder
